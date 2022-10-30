@@ -61,3 +61,4 @@ watchdog==2.1.9
 wincertstore==0.2
 yfinance==0.1.84
 zipp==3.10.0
+opencv-python-headless
