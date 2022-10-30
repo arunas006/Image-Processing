@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+
 from PIL import Image
 from matplotlib.image import imread
 import pandas as pd
@@ -20,14 +20,15 @@ st.write("""
 
 file = st.file_uploader("Choose the image which needs to be processed", accept_multiple_files=False,type=['jpg','png'])
 
-image = Image.open(file)
-
-
-
-img = np.array(image)
-
-
 if file is not None:
+    image = Image.open(file)
+
+
+
+    img = np.array(image)
+
+
+
 
 
     fea=0
