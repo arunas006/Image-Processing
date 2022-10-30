@@ -1,7 +1,7 @@
 import numpy as np
 
 from PIL import Image
-pip install opencv-python
+
 import pandas as pd
 import cv2
 import streamlit as st
