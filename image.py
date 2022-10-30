@@ -1,7 +1,7 @@
 import numpy as np
 
 from PIL import Image
-from matplotlib.image import imread
+
 import pandas as pd
 import cv2
 import streamlit as st
